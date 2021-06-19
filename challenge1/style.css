@@ -1,0 +1,157 @@
+body{
+	background-color: #ECF2F8;
+}
+
+
+.drawer-img{
+	border-top-left-radius: 3%;
+	border-bottom-left-radius: 3%;
+	content: url("images/drawers.1.jpg");
+	display: inline-block;
+	width: 250px;
+	height: 250px;
+	
+	margin-top: 14%;
+
+}
+.drawer-image{
+
+	
+	width: 250px;
+	height: 250px;
+}
+.text{
+	display: inline-block;
+	width: 410px;
+	height: 250px;
+	background-color: black;
+	position: relative;
+	right: 5px;
+	bottom: 23px;
+	background-color: #ffffff;
+	border-top-right-radius: 3%;
+	border-bottom-right-radius: 3%;
+}
+.wrap{
+	text-align: center;
+}
+.headline{
+	
+	color: #4E5765;
+	font-size: 20px;
+	padding-top: 3%;
+	padding-left: 7%;
+	padding-right: 7%;
+	font-family: 'Manrope',sans-serif;
+	font-weight: 700;
+}
+.para{
+	
+	color: #9EAFC2;
+	font-size: 13px;
+	margin-top: 3%;
+	padding-left: 7%;
+	padding-right: 7%;
+	font-family: 'Manrope',sans-serif;
+	font-weight: 500;
+}
+.avatar-img{
+	border-radius: 100%;
+	width: 34px;
+	margin-top: 1%;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.name{
+	padding-top: 1%;
+
+}
+.share{
+	position: absolute;
+	
+	right: 30px;
+	top: 195px;
+	border-style: none;
+	padding: 2%;
+	border-radius: 100%;
+
+}
+.share:hover{
+	background-color: #dedede;
+}
+.social{
+	display: none;
+	color: lightgrey;
+	position: absolute;
+	font-family: 'Manrope',sans-serif;
+	letter-spacing: 4px;
+	font-size: 14px;
+	padding: 3% 3%;
+	border-radius: 10px;
+	background-color: #575757;
+	top: 125px;
+	left: 167px;
+
+}
+.social-icon{
+	margin-left: 15px;
+	position: relative;
+	top:3px;
+}
+@media(max-width: 850px){
+	/*.desktop{
+		display: none;
+	}*/
+
+	.drawer-img{
+		display: block;
+	}
+	.text{
+		display: block;
+	}
+	.drawer-img{
+		content: url("images/drawers.jpg");
+	}
+	.drawer-img{
+
+		width: 300px;
+		height: 250px;
+		
+		margin-top: 10%;
+		border-top-left-radius: 4%;
+		border-top-right-radius: 4%;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.text{
+		width: 300px;
+		height: 280px;
+		right: -1px;
+		
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: 4%;
+		border-bottom-left-radius:4%;
+	}
+	.headline{
+		padding-top: 10%;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.share{
+		top: 220px;
+
+	}
+	.social{
+		top: 180px;
+		left: 0px;
+		width: 280px;
+		height: 50px;
+		padding-top: 8%;
+		letter-spacing: 6px;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+
+	}
+	
+}
