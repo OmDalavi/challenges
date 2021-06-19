@@ -1,6 +1,6 @@
 
 $(".share").on("click",function(){
-	$(".social").slideToggle(500);
+	$(".social").slideToggle(300);
 	
 });
 
